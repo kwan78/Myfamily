@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8BA2863A15D889290011E41B"
-               BuildableName = "Myfamily2.app"
-               BlueprintName = "Myfamily2"
-               ReferencedContainer = "container:Myfamily2.xcodeproj">
+               BuildableName = "Myfamily.app"
+               BlueprintName = "Myfamily"
+               ReferencedContainer = "container:Myfamily.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8BA2865E15D8892A0011E41B"
-               BuildableName = "Myfamily2Tests.octest"
-               BlueprintName = "Myfamily2Tests"
-               ReferencedContainer = "container:Myfamily2.xcodeproj">
+               BuildableName = "MyfamilyTests.octest"
+               BlueprintName = "MyfamilyTests"
+               ReferencedContainer = "container:Myfamily.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8BA2863A15D889290011E41B"
-            BuildableName = "Myfamily2.app"
-            BlueprintName = "Myfamily2"
-            ReferencedContainer = "container:Myfamily2.xcodeproj">
+            BuildableName = "Myfamily.app"
+            BlueprintName = "Myfamily"
+            ReferencedContainer = "container:Myfamily.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8BA2863A15D889290011E41B"
-            BuildableName = "Myfamily2.app"
-            BlueprintName = "Myfamily2"
-            ReferencedContainer = "container:Myfamily2.xcodeproj">
+            BuildableName = "Myfamily.app"
+            BlueprintName = "Myfamily"
+            ReferencedContainer = "container:Myfamily.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8BA2863A15D889290011E41B"
-            BuildableName = "Myfamily2.app"
-            BlueprintName = "Myfamily2"
-            ReferencedContainer = "container:Myfamily2.xcodeproj">
+            BuildableName = "Myfamily.app"
+            BlueprintName = "Myfamily"
+            ReferencedContainer = "container:Myfamily.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
