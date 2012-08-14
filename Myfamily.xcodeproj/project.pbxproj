@@ -24,6 +24,8 @@
 		8B62592B15D8A04A00F43CA4 /* DSC_0052.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B62592215D8A04A00F43CA4 /* DSC_0052.png */; };
 		8B62592C15D8A04A00F43CA4 /* DSC_0055.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B62592315D8A04A00F43CA4 /* DSC_0055.png */; };
 		8B62592D15D8A04A00F43CA4 /* DSC_0062.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B62592415D8A04A00F43CA4 /* DSC_0062.png */; };
+		8B67AB5A15DA35F8001CC97A /* Option.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B67AB5915DA35F8001CC97A /* Option.m */; };
+		8B67AB5D15DA3CA2001CC97A /* icon-slideshow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B67AB5C15DA3CA2001CC97A /* icon-slideshow.png */; };
 		8BA2864015D889290011E41B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA2863F15D889290011E41B /* UIKit.framework */; };
 		8BA2864215D889290011E41B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA2864115D889290011E41B /* Foundation.framework */; };
 		8BA2864415D889290011E41B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA2864315D889290011E41B /* CoreGraphics.framework */; };
@@ -69,6 +71,9 @@
 		8B62592215D8A04A00F43CA4 /* DSC_0052.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = DSC_0052.png; path = ../../../../Pictures/hyojoon/DSC_0052.png; sourceTree = "<group>"; };
 		8B62592315D8A04A00F43CA4 /* DSC_0055.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = DSC_0055.png; path = ../../../../Pictures/hyojoon/DSC_0055.png; sourceTree = "<group>"; };
 		8B62592415D8A04A00F43CA4 /* DSC_0062.png */ = {isa = PBXFileReference; explicitFileType = image.png; name = DSC_0062.png; path = ../../../../Pictures/hyojoon/DSC_0062.png; sourceTree = "<group>"; };
+		8B67AB5815DA35F8001CC97A /* Option.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Option.h; sourceTree = "<group>"; };
+		8B67AB5915DA35F8001CC97A /* Option.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Option.m; sourceTree = "<group>"; };
+		8B67AB5C15DA3CA2001CC97A /* icon-slideshow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-slideshow.png"; path = "Resources/icon-slideshow.png"; sourceTree = SOURCE_ROOT; };
 		8BA2863B15D889290011E41B /* Myfamily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Myfamily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA2863F15D889290011E41B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8BA2864115D889290011E41B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -119,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				8B15F76115D8DDC4003C6397 /* config_info.png */,
+				8B67AB5C15DA3CA2001CC97A /* icon-slideshow.png */,
 				8B15F76215D8DDC4003C6397 /* config_info@2x.png */,
 				8B15F75715D8DB6F003C6397 /* close_icon.png */,
 				8B15F75815D8DB6F003C6397 /* close_icon@2x.png */,
@@ -175,6 +181,8 @@
 				8BA2864E15D889290011E41B /* AppDelegate.h */,
 				8BA2864F15D889290011E41B /* AppDelegate.m */,
 				8BA2865115D889290011E41B /* MainStoryboard_iPhone.storyboard */,
+				8B67AB5815DA35F8001CC97A /* Option.h */,
+				8B67AB5915DA35F8001CC97A /* Option.m */,
 				8BA2865415D889290011E41B /* MainStoryboard_iPad.storyboard */,
 				8B15F75215D8D3A2003C6397 /* how.h */,
 				8B15F75315D8D3A2003C6397 /* how.m */,
@@ -305,6 +313,7 @@
 				8B15F75E15D8DB70003C6397 /* config_sns@2x.png in Resources */,
 				8B15F76315D8DDC4003C6397 /* config_info.png in Resources */,
 				8B15F76415D8DDC4003C6397 /* config_info@2x.png in Resources */,
+				8B67AB5D15DA3CA2001CC97A /* icon-slideshow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +352,7 @@
 				8BA2865015D889290011E41B /* AppDelegate.m in Sources */,
 				8BA2865915D889290011E41B /* ViewController.m in Sources */,
 				8B15F75415D8D3A2003C6397 /* how.m in Sources */,
+				8B67AB5A15DA35F8001CC97A /* Option.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

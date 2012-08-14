@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface how : UIViewController <UITableViewDelegate>{
+@interface how : UITableViewController {
     
 //    NSString *cIdentifier1;
 //    UITableViewCell *cell1;
