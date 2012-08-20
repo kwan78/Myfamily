@@ -16,19 +16,19 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="DSC_0003.png" id="5ep-dl-gg4">
                                 <rect key="frame" x="20" y="65" width="130" height="142"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="config_sns@2x.png" id="pCe-gl-PKK">
                                 <rect key="frame" x="170" y="65" width="130" height="142"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="DSC_0055.png" id="RMs-b6-jem">
                                 <rect key="frame" x="20" y="215" width="130" height="142"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" image="DSC_0051.png" id="IW0-P1-gkY">
                                 <rect key="frame" x="170" y="215" width="130" height="142"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="shadow490.png" id="ZsL-0o-z27">
                                 <rect key="frame" x="0.0" y="36" width="320" height="8"/>
@@ -45,9 +45,6 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="au9-ap-5FN" kind="modal" id="v77-8Z-zhe"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="OHR-sp-K8b">
                                 <rect key="frame" x="253" y="5" width="26" height="26"/>
@@ -136,7 +133,7 @@
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
         </class>
-        <class className="how" superclassName="UIViewController">
+        <class className="how" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/how.h"/>
             <relationships>
                 <relationship kind="action" name="modalclose"/>
